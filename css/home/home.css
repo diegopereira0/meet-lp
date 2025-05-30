@@ -1,0 +1,132 @@
+.hero {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 36px;
+  margin-bottom: 12.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-info {
+  grid-column: 2;
+  text-align: center;
+  justify-self: center;
+}
+
+.hero-info h1 {
+  margin: 0 auto 2rem auto;
+  max-width: 10ch;
+}
+
+.hero-info p {
+  max-width: 50ch;
+  margin-bottom: 2rem;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-info,
+.hero-image-left,
+.hero-image-right {
+  grid-row: 1;
+}
+
+.hero-image-left,
+.hero-image-right {
+  min-width: 240px;
+}
+
+.hero-image-left {
+  overflow: hidden;
+  grid-column: 1;
+  margin-top: -55px;
+  margin-left: -40px;
+}
+
+.hero-image-right {
+  overflow: hidden;
+  grid-column: 3;
+  margin-top: 55px;
+  margin-right: -40px;
+}
+
+.hero-image-center {
+  display: none;
+}
+
+.bullet-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 auto;
+  border: 1px solid #dddde2;
+  border-radius: 50%;
+  position: relative;
+}
+
+.bullet-number::before {
+  display: inline-block;
+  content: "";
+  width: 1px;
+  height: 84px;
+  background-color: #dddde2;
+  margin-top: -140px;
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 72px;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 10.25rem;
+  }
+
+  .hero-info h1 {
+    margin-bottom: 24px;
+  }
+
+  .hero-image-center {
+    display: flex;
+    grid-row: 1;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-image-center img {
+    min-width: 680px;
+  }
+
+  .hero-info {
+    padding: 0 20px;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .hero-image-left,
+  .hero-image-right {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .hero {
+    gap: 48px;
+    margin-bottom: 148px;
+  }
+
+  .hero-image-center img {
+    min-width: 100%;
+  }
+}
