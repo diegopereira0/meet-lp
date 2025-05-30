@@ -1,0 +1,17 @@
+.heading-1 {
+  font: 900 4rem/4rem "Red Hat Display", sans-serif;
+}
+
+.heading-2 {
+  font: 900 2.5rem/2.75rem "Red Hat Display", sans-serif;
+}
+
+.overline {
+  font: 900 1rem/1.625rem "Red Hat Display", sans-serif;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+
+.body {
+  font: 500 1.125rem/1.625rem "Red Hat Display", sans-serif;
+}
