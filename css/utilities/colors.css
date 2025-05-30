@@ -1,0 +1,37 @@
+:root {
+  --neutral-color-100: #fafafa;
+  --neutral-color-200: #87879d;
+  --neutral-color-300: #28283d;
+  --primary-color-100: #8fe3f9;
+  --primary-color-200: #4d96a9;
+  --secondary-color-100: #d9b8ff;
+  --secondary-color-200: #855fb1;
+}
+
+.neutral-color-100 {
+  color: var(--neutral-color-100);
+}
+
+.neutral-color-200 {
+  color: var(--neutral-color-200);
+}
+
+.neutral-color-300 {
+  color: var(--neutral-color-300);
+}
+
+.primary-color-100 {
+  color: var(--primary-color-100);
+}
+
+.primary-color-200 {
+  color: var(--primary-color-200);
+}
+
+.secondary-color-100 {
+  color: var(--secondary-color-100);
+}
+
+.secondary-color-200 {
+  color: var(--secondary-color-200);
+}
