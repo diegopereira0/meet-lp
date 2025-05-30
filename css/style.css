@@ -1,9 +1,12 @@
 /* GLOBAL */
 @import "../css/global/global.css";
+@import "../css/global/header.css";
+@import "../css/global/footer.css";
 
 /* UTILITIES */
 @import "../css/utilities/colors.css";
 @import "../css/utilities/typograph.css";
+@import "../css/utilities/components.css";
 
 /* HOME */
 

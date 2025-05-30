@@ -1,0 +1,41 @@
+.container {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  border-radius: 32px;
+  font: 900 1rem/1.625rem "Red Hat Display", sans-serif;
+  transition: 0.3s;
+}
+
+.button-primary {
+  background-color: var(--primary-color-200);
+  color: #fff;
+}
+
+.button-primary span {
+  color: #8fe3f9;
+}
+
+.button-primary:hover {
+  background-color: var(--primary-color-100);
+}
+
+.button-secondary {
+  background-color: var(--secondary-color-200);
+  color: #fff;
+}
+
+.button-secondary span {
+  color: #d9b8ff;
+}
+
+.button-secondary:hover {
+  background: var(--secondary-color-100);
+}

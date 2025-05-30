@@ -1,0 +1,23 @@
+.header {
+  margin-top: 5rem;
+  margin-bottom: 3.75rem;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header img {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .header {
+    margin-bottom: 3.25rem;
+  }
+}
